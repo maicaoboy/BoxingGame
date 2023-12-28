@@ -7,3 +7,7 @@
   服务器端采用单线程并使用epoll进行I/O复用(单线程)，以处理多用户的游戏并发。
 - 客户端
   客户端的设计：主进程负责发送数据和接收用户输入，并负责键盘操作部分的画面展示工作，另外使用一个新的线程接受来自服务器的数据，并负责服务器数据到本地数据的同步及此部分数据到画面的刷新。
+- 游戏截图
+  ![image text](https://github.com/maicaoboy/BoxingGame/blob/main/screenshot/%E6%B8%B8%E6%88%8F%E6%88%AA%E5%9B%BE1.png)
+  ![image text](https://github.com/maicaoboy/BoxingGame/blob/main/screenshot/%E6%B8%B8%E6%88%8F%E6%88%AA%E5%9B%BE2.png)
+  ![image text](https://github.com/maicaoboy/BoxingGame/blob/main/screenshot/%E6%B8%B8%E6%88%8F%E6%88%AA%E5%9B%BE3.png)
